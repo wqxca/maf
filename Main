@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class Main {
+
+public static void arrow(int head,int beas){
+  System.out.println("\t"+head);
+  System.out.println("\t"+head+head);
+  System.out.println(beas+""+beas+beas+beas+head+head+head);
+  System.out.println(beas+""+beas+beas+beas+head+head+head+head);
+  System.out.println(beas+""+beas+beas+beas+head+head+head);
+  System.out.println("\t"+head+head);
+  System.out.println("\t"+head);
+
+  
+}
+
+  
+public static void main(String[] args) {
+Scanner input =new Scanner(System.in);
+System.out.println("Enter the head size");
+int he = input.nextInt();
+System.out.println("Enter the beas size");
+int be = input.nextInt();
+
+arrow(he,be);
+
+    
+  }
+}
